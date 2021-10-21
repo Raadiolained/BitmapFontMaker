@@ -45,6 +45,7 @@ func makefont():
 	var region : Rect2
 	var unicode
 	var btmfont = BitmapFont.new()
+	btmfont.height = chsize.y
 	var count : int
 	btmfont.add_texture(texture)
 	for ch in input:
